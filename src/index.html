@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/base.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery.datetimepicker.css">
+
+</head>
+<body>
+<div class="msg">
+    <span class="msg-content"></span>
+    <span class="anchor confirmed">知道了</span>
+</div>
+<div class="container"><!--总容器开始-->
+    <h1>我的 TODO</h1>
+    <form class="add-task"><!--添加任务开始-->
+        <input name='content' type="text" placeholder="e.g. 下午记得买菜" autofocus autocomplete="off">
+        <button>add</button>
+    </form><!--添加任务结束-->
+  <div class="task-list"><!--清单列表开始-->
+      </div><!--清单列表结束-->
+    <div class="task-detail-mask"></div>
+    <div class="task-detail"><!--任务详情开始-->
+        <div>
+        <div class="content">下午买菜</div>
+        <div class="desc"><textarea></textarea></div>
+        <div class="remind"><!--任务定时提醒开始-->
+            <input type="date">
+        </div><!--任务定时提醒结束-->
+        </div>
+    </div><!--任务详情结束-->
+ </div><!--总容器结束-->
+<video class="alerter" src="video/alert.mp3"></video>
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/jquery.datetimepicker.js"></script>
+<script src="js/store.min.js"></script>
+<script src="js/base.js" ></script>
+</body>
+</html>
